@@ -1,4 +1,4 @@
-# Mock Portfolio (From JSMastery) 
+# Modern Portfolio (Credits:JSMastery) 
 
 A modern portfolio template with bug fixes for links not opening and other usability issues. Showcase your projects, skills, and experiences in a visually engaging way.
 
@@ -14,28 +14,27 @@ A modern portfolio template with bug fixes for links not opening and other usabi
 
 ## Features
 
-### 👉 Hero
-A captivating introduction featuring a spotlight effect and dynamic background.
+This portfolio contains several distinct sections, each carefully crafted to showcase your professional journey:
 
-### 👉 Bento Grid
-A modern layout presenting personal information using cutting-edge CSS design techniques.
+### 🏆 Projects and Achievements
+Highlight your notable accomplishments and innovative projects, presented in a visually appealing and interactive layout.
 
-### 👉 3D Elements
-Interactive 3D design elements, such as a GitHub-style globe and card hover effects, adding depth and engagement.
+### ✨ Key Takeaways
+Summarize your unique skills, lessons learned, and the value you bring to potential collaborators or employers.
 
-### 👉 Testimonials
-A dynamic testimonials area with scrolling or animated content for enhanced engagement.
+### 💬 Kind Words
+Incorporate testimonials and feedback from mentors, peers, or clients, dynamically displayed to enhance credibility and engagement.
 
-### 👉 Work Experience
-Prominent display of professional background for emphasis and credibility.
+### 🛠 Work Experience
+Showcase your professional background and roles, with a focus on impactful contributions and milestones achieved.
 
-### 👉 Canvas Effect
-Innovative use of HTML5 canvas to create visually striking effects in the "approaches" section.
+### 🗂 Project Planning
+Offer insights into your strategic approach to planning, executing, and completing successful projects.
 
-### 👉 Responsiveness
-Seamless adaptability across all devices, ensuring an optimal viewing experience for every user.
+---
 
-...and many more, including **code architecture improvements** and **reusability enhancements**.
+Each section is designed with a modern aesthetic and structured for easy navigation, ensuring a seamless experience for all users. **This also contains bug fixes to the original project created by Adrian,JSMastery. This project has only been made possible thanks to his open source contributions and guidance.**
+
 
 ---
 
