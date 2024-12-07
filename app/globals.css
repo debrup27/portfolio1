@@ -70,9 +70,11 @@
   * {
     @apply border-border !scroll-smooth;
   }
+
   body {
     @apply bg-background text-foreground;
   }
+
   button {
     @apply active:outline-none;
   }
@@ -82,4 +84,41 @@
   .heading {
     @apply font-bold text-4xl md:text-5xl text-center;
   }
+}
+
+@keyframes confettiFall {
+  0% {
+    transform: rotate(0deg) translateY(-100vh);
+  }
+
+  100% {
+    transform: rotate(360deg) translateY(100vh);
+  }
+}
+
+.confetti {
+  position: absolute;
+  top: -10%;
+  left: 50%;
+  width: 5px;
+  height: 15px;
+  background-color: #ff6347;
+  /* Or any color you want */
+  animation: confettiFall 2s ease-in-out infinite;
+}
+
+.confetti:nth-child(odd) {
+  background-color: #00bfff;
+  /* Add another color for variety */
+}
+
+.confetti:nth-child(even) {
+  background-color: #32cd32;
+}
+
+.confettiContainer {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  /* Adjust as needed */
 }
