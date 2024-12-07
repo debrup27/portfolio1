@@ -176,7 +176,7 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Operations Manager/Leader",
+    title: "Team Leader/Project Lead",
     desc: "Currently the Team Lead of winners of Nirmiti 2024(Tier-I) and also the Lead of Team Basilisk.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
