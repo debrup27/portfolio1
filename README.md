@@ -1,4 +1,4 @@
-# Modern Portfolio (Credits:JSMastery) 
+# Modern Portfolio (Credits- JSMastery) 
 
 A modern portfolio template with bug fixes for links not opening and other usability issues. Showcase your projects, skills, and experiences in a visually engaging way.
 
