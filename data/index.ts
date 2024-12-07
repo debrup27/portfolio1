@@ -47,16 +47,17 @@ export const gridItems = [
     spareImg: "/b4.svg",
   },
 
-  {
-    id: 5,
-    title: "Currently working on a Project for the Detection of Sudden Cloud Burst and Preventive Counter-Measures",
-    description: "The Insider's View",
-    className: "md:col-span-3 md:row-span-2",
-    imgClassName: "absolute right-0 bottom-[10rem] md:w-80 w-60",
-    titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/output.png",
-    spareImg: "/grid.svg",
-  },
+ {
+  id: 5,
+  title: "Currently working on a Project for the Detection of Sudden Cloud Burst and Preventive Counter-Measures",
+  description: "The Insider's View",
+  className: "md:col-span-3 md:row-span-2",
+  imgClassName: "absolute right-0 bottom-[10rem] w-40 sm:w-48 md:w-80", // Responsive widths for different breakpoints
+  titleClassName: "justify-center md:justify-start lg:justify-center",
+  img: "/output.png",
+  spareImg: "/grid.svg",
+},
+
   {
     id: 6,
     title: "Do you want to start a project together or Hire me for a project?",
