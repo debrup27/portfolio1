@@ -1,4 +1,4 @@
-// layout.tsx (Server-side component, no "use client" here)
+// layout.tsx (Server-side component, no "use client" directive here)
 import { Inter } from "next/font/google";
 import { ThemeProvider } from "./provider";
 import "./globals.css";
