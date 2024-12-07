@@ -6,10 +6,10 @@ import "./globals.css";
 // No "use client" directive here
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
-  title: "Debrup's Portfolio",
-  description: "More about me",
-};
+// export const metadata = {
+//   title: "Debrup's Portfolio",
+//   description: "More about me",
+// };
 
 export default function RootLayout({
   children,
