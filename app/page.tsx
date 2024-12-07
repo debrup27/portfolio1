@@ -1,7 +1,6 @@
 "use client";
 
 import { navItems } from "@/data";
-
 import Hero from "@/components/Hero";
 import Grid from "@/components/Grid";
 import Footer from "@/components/Footer";
@@ -9,7 +8,14 @@ import Clients from "@/components/Clients";
 import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
 import RecentProjects from "@/components/RecentProjects";
-import { FloatingNav } from "@/components/ui/FloatingNavbar";
+
+// Correct dynamic import with proper typing
+import dynamic from "next/dynamic";
+
+// Ensure the dynamic import returns a valid component type
+const FloatingNav = dynamic(() => import("@/components/ui/FloatingNavbar").then((mod) => mod.FloatingNav), {
+  ssr: false, // Disable SSR for this component
+});
 
 const Home = () => {
   return (
