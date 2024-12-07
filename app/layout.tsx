@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { useEffect, useState } from "react"; // Import useState and useEffect
 
 import "./globals.css";
 import { ThemeProvider } from "./provider";
@@ -16,6 +17,17 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    // This ensures code inside is executed only on the client side
+    setIsClient(true);
+  }, []);
+
+  if (!isClient) {
+    return null; // Render nothing on the server side to prevent SSR errors
+  }
+
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
