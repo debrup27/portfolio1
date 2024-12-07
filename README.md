@@ -33,7 +33,7 @@ Offer insights into your strategic approach to planning, executing, and completi
 
 ---
 
-Each section is designed with a modern aesthetic and structured for easy navigation, ensuring a seamless experience for all users. **This also contains bug fixes to the original project created by Adrian,JSMastery. This project has only been made possible thanks to his open source contributions and guidance.**
+Each section is designed with a modern aesthetic and structured for easy navigation, ensuring a seamless experience for all users. **This also contains bug fixes to the original project created by Adrian,JSMastery. This project has only been possible thanks to his open source contributions and guidance.**
 
 
 ---
