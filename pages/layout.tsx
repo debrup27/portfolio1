@@ -1,21 +1,19 @@
-import type { Metadata } from "next";
+// layout.tsx (Server-side component, no "use client" here)
 import { Inter } from "next/font/google";
-
-import "./globals.css";
 import { ThemeProvider } from "./provider";
+import "./globals.css";
 
+// No "use client" directive here
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Debrup's Portfolio",
   description: "More about me",
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
