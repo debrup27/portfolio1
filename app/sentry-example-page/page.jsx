@@ -1,9 +1,31 @@
 "use client";
 
+import { useEffect } from "react";
 import Head from "next/head";
 import * as Sentry from "@sentry/nextjs";
 
 export default function Page() {
+  useEffect(() => {
+    // Ensure this code runs only on the client side
+    if (typeof window !== "undefined") {
+      // Optionally initialize or configure Sentry here
+      Sentry.init({ dsn: "your-sentry-dsn-here" });
+    }
+  }, []);
+
+  const handleErrorClick = async () => {
+    try {
+      Sentry.startTransaction({ name: 'Example Frontend Transaction' }, async () => {
+        const res = await fetch("/api/sentry-example-api");
+        if (!res.ok) {
+          throw new Error("Sentry Example Frontend Error");
+        }
+      });
+    } catch (error) {
+      Sentry.captureException(error);
+    }
+  };
+
   return (
     <div>
       <Head>
@@ -48,17 +70,7 @@ export default function Page() {
             fontSize: "14px",
             margin: "18px",
           }}
-          onClick={() => {
-            Sentry.startSpan({
-              name: 'Example Frontend Span',
-              op: 'test'
-            }, async () => {
-              const res = await fetch("/api/sentry-example-api");
-              if (!res.ok) {
-                throw new Error("Sentry Example Frontend Error");
-              }
-            });
-          }}
+          onClick={handleErrorClick}
         >
           Throw error!
         </button>
