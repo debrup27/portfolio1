@@ -2,11 +2,11 @@
 
 A modern portfolio template with bug fixes for links not opening and other usability issues. Showcase your projects, skills, and experiences in a visually engaging way.
 
+For project and work inquiries you can contact me at debrupsengupta289@gmail.com
 ---
 
 ## Tech Stack
 - **Next.js**
-- **Three.js**
 - **Framer Motion**
 - **Tailwind CSS**
 
