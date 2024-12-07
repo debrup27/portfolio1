@@ -213,7 +213,7 @@ export const socialMedia = [
   {
     id: 2,
     img: "/link.svg",
-    link: "https://www.linkedin.com/in/debrup-sengupta-36b72825b/",
+    link: "https://www.linkedin.com/in/debrup-sengupta/",
   },
   {
      id: 3,
