@@ -75,7 +75,7 @@ export const projects = [
   {
     id: 1,
     title: "Winner of Nirmiti 2024(Tier-I)",
-    des: "I was the Operations Manager/Leader of the winning team of Nirmiti 2024,A Startup Conclave.",
+    des: "I was the Leader of the winning team of Nirmiti 2024,A Startup Conclave.",
     img: "/trophy.jpeg",
     iconLists: ["/small-trophy.png"],
     link: "/youtube.com/watch?v=Jh7fmU0TWIA&t=28968s",
