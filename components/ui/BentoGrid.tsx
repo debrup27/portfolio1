@@ -52,6 +52,15 @@ export const BentoGridItem = ({
     const text = "debrupsengupta289@gmail.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
+
+    // Trigger the confetti effect globally
+    const confettiContainer = document.querySelector('.confettiContainer');
+    if (confettiContainer) {
+      confettiContainer.classList.add('active');
+      setTimeout(() => {
+        confettiContainer.classList.remove('active');
+      }, 3000);  // Duration for confetti effect
+    }
   };
 
   return (
@@ -146,14 +155,12 @@ export const BentoGridItem = ({
                 className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"}`}
               >
                 {/* Confetti effect on copy */}
-                {copied && (
-                  <div className="confettiContainer">
-                    {/* Simulating confetti falling */}
-                    <div className="confetti"></div>
-                    <div className="confetti"></div>
-                    <div className="confetti"></div>
-                  </div>
-                )}
+                <div className="confettiContainer">
+                  {/* Confetti will be triggered globally */}
+                  <div className="confetti"></div>
+                  <div className="confetti"></div>
+                  <div className="confetti"></div>
+                </div>
               </div>
 
               <MagicButton

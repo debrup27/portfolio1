@@ -86,39 +86,87 @@
   }
 }
 
+/* Keyframes for confetti falling from top to bottom */
 @keyframes confettiFall {
   0% {
     transform: rotate(0deg) translateY(-100vh);
+    /* Starts from the top */
   }
 
   100% {
     transform: rotate(360deg) translateY(100vh);
+    /* Ends at the bottom */
   }
 }
 
+/* Container for the confetti particles */
+.confettiContainer {
+  position: absolute;
+  bottom: 0;
+  /* Positioned at the bottom of the grid */
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100px;
+  /* Adjust the height to control how far the confetti falls */
+  pointer-events: none;
+  /* Prevent the confetti from blocking interactions */
+  z-index: 10;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 50px;
+  /* To give some space below the grid */
+}
+
+/* Confetti particles */
 .confetti {
   position: absolute;
-  top: -10%;
-  left: 50%;
-  width: 5px;
-  height: 15px;
+  width: 10px;
+  /* Size of each confetti */
+  height: 20px;
   background-color: #ff6347;
-  /* Or any color you want */
-  animation: confettiFall 2s ease-in-out infinite;
+  /* Initial color */
+  opacity: 0.9;
+  animation: confettiFall 3s ease-in-out infinite;
+  /* Falling animation */
+  pointer-events: none;
+  z-index: 5;
 }
 
 .confetti:nth-child(odd) {
   background-color: #00bfff;
-  /* Add another color for variety */
 }
 
 .confetti:nth-child(even) {
   background-color: #32cd32;
 }
 
-.confettiContainer {
-  position: relative;
-  width: 100%;
-  height: 200px;
-  /* Adjust as needed */
+/* Randomize the confetti animation delay and position */
+.confetti:nth-child(1) {
+  left: 10%;
+  animation-delay: 0s;
 }
+
+.confetti:nth-child(2) {
+  left: 30%;
+  animation-delay: 0.5s;
+}
+
+.confetti:nth-child(3) {
+  left: 50%;
+  animation-delay: 1s;
+}
+
+.confetti:nth-child(4) {
+  left: 70%;
+  animation-delay: 1.5s;
+}
+
+.confetti:nth-child(5) {
+  left: 90%;
+  animation-delay: 2s;
+}
+
+/* Add more confetti styles if needed */
