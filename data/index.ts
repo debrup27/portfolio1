@@ -99,10 +99,10 @@ export const projects = [
   {
     //UPDATE LATER
     id: 4,
-    title: "In Progress",
-    des: "....",
-    img: "/p4.svg",
-    iconLists: ["/re.svg"],
+    title: "IOT-SYSTEM-TO-ADDRESS-HEAT-PROBLEMS-WITH-ARDUINO-UNO",
+    des: "A hobby project, to monitor and advice the user accordingly for taking various precautions against heat",
+    img: "/ard.jpeg",
+    iconLists: ["/c++.png","uno.png","iot.png"],
     link: "/github.com/debrup27",
   },
 ];
