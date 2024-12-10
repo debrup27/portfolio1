@@ -110,31 +110,31 @@ export const projects = [
 export const testimonials = [
   {
         quote:
-      "Collaborating with Debrup was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Debrup's enthusiasm for every aspect of development truly stands out. If you're seeking out to elevate your projects, Debrup is the ideal partner.",
+      "I am pleased to write this recommendation for Debrup, who has been an exceptional individual to work with. Over the course of several mini projects, Debrup has consistently demonstrated remarkable dedication, strong work ethic, and a high level of skill. His ability to quickly grasp complex concepts and apply them effectively has been impressive. Debrup approaches every task with a positive attitude, maintaining focus and attention to detail, which has been crucial in successfully completing each project. His willingness to learn, adaptability, and problem-solving capabilities have allowed him to overcome challenges efficiently. He consistently delivers results within deadlines and always strives to exceed expectations. I have no doubt that Debrup will continue to excel in any endeavor he undertakes, and I wholeheartedly recommend him for any opportunity he pursues.",
     name: "Saikat Bandyopadhyay",
     title: "Asst.Professor at Netaji Subhash Engineering College",
   },
   {
     quote:
-      "Collaborating with Debrup was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Debrup's enthusiasm for every aspect of development truly stands out. If you're seeking out to elevate your projects, Debrup is the ideal partner.",
+      "I am pleased to write this recommendation for Debrup, who has been an exceptional individual to work with. Over the course of several mini projects, Debrup has consistently demonstrated remarkable dedication, strong work ethic, and a high level of skill. His ability to quickly grasp complex concepts and apply them effectively has been impressive. Debrup approaches every task with a positive attitude, maintaining focus and attention to detail, which has been crucial in successfully completing each project. His willingness to learn, adaptability, and problem-solving capabilities have allowed him to overcome challenges efficiently. He consistently delivers results within deadlines and always strives to exceed expectations. I have no doubt that Debrup will continue to excel in any endeavor he undertakes, and I wholeheartedly recommend him for any opportunity he pursues.",
     name: "Saikat Bandyopadhyay",
     title: "Asst.Professor at Netaji Subhash Engineering College",
   },
   {
     quote:
-      "Collaborating with Debrup was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Debrup's enthusiasm for every aspect of development truly stands out. If you're seeking out to elevate your projects, Debrup is the ideal partner.",
+      "I am pleased to write this recommendation for Debrup, who has been an exceptional individual to work with. Over the course of several mini projects, Debrup has consistently demonstrated remarkable dedication, strong work ethic, and a high level of skill. His ability to quickly grasp complex concepts and apply them effectively has been impressive. Debrup approaches every task with a positive attitude, maintaining focus and attention to detail, which has been crucial in successfully completing each project. His willingness to learn, adaptability, and problem-solving capabilities have allowed him to overcome challenges efficiently. He consistently delivers results within deadlines and always strives to exceed expectations. I have no doubt that Debrup will continue to excel in any endeavor he undertakes, and I wholeheartedly recommend him for any opportunity he pursues.",
     name: "Saikat Bandyopadhyay",
     title: "Asst.Professor at Netaji Subhash Engineering College",
   },
   {
     quote:
-      "Collaborating with Debrup was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Debrup's enthusiasm for every aspect of development truly stands out. If you're seeking out to elevate your projects, Debrup is the ideal partner.",
+      "I am pleased to write this recommendation for Debrup, who has been an exceptional individual to work with. Over the course of several mini projects, Debrup has consistently demonstrated remarkable dedication, strong work ethic, and a high level of skill. His ability to quickly grasp complex concepts and apply them effectively has been impressive. Debrup approaches every task with a positive attitude, maintaining focus and attention to detail, which has been crucial in successfully completing each project. His willingness to learn, adaptability, and problem-solving capabilities have allowed him to overcome challenges efficiently. He consistently delivers results within deadlines and always strives to exceed expectations. I have no doubt that Debrup will continue to excel in any endeavor he undertakes, and I wholeheartedly recommend him for any opportunity he pursues.",
     name: "Saikat Bandyopadhyay",
     title: "Asst.Professor at Netaji Subhash Engineering College",
   },
   {
-    quote:
-      "Collaborating with Debrup was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Debrup's enthusiasm for every aspect of development truly stands out. If you're seeking out to elevate your projects, Debrup is the ideal partner.",
+   quote:
+      "I am pleased to write this recommendation for Debrup, who has been an exceptional individual to work with. Over the course of several mini projects, Debrup has consistently demonstrated remarkable dedication, strong work ethic, and a high level of skill. His ability to quickly grasp complex concepts and apply them effectively has been impressive. Debrup approaches every task with a positive attitude, maintaining focus and attention to detail, which has been crucial in successfully completing each project. His willingness to learn, adaptability, and problem-solving capabilities have allowed him to overcome challenges efficiently. He consistently delivers results within deadlines and always strives to exceed expectations. I have no doubt that Debrup will continue to excel in any endeavor he undertakes, and I wholeheartedly recommend him for any opportunity he pursues.",
     name: "Saikat Bandyopadhyay",
     title: "Asst.Professor at Netaji Subhash Engineering College",
   },
