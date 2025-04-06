@@ -5,7 +5,7 @@ A modern portfolio template with bug fixes for links not opening and other usabi
 For project and work inquiries you can contact me at debrupsengupta289@gmail.com
 ---
 
-## Tech Stack
+## Tech Stack:-
 - **Next.js**
 - **Framer Motion**
 - **Tailwind CSS**
